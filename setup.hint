@@ -1,0 +1,4 @@
+category: Gnome Python
+requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 gtkimageview python python-gobject2 python-gtk2
+sdesc: "Python GtkImageView bindings"
+ldesc: "Python bindings to the GtkImageView image viewer widget"

@@ -1,0 +1,69 @@
+python-gtkimageview
+------------------------------------------
+Python bindings for the GtkImageView image viewer widget
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  gdk-pixbuf2-2.12.9-1
+  glib2-2.16.3-1
+  gtk2-x11-2.12.9-1
+  gtkimageview-1.6.1-1
+  python-2.5.2-1
+  python-gobject2-2.14.2-1
+  python-gtk2-2.12.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://trac.bjourne.webfactional.com/
+
+Canonical download:
+  http://trac.bjourne.webfactional.com/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-gtkimageview-1.1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-gtkimageview-1.1.0-X.cygport all
+
+This will create:
+  /usr/src/python-gtkimageview-1.1.0-X-src.tar.bz2
+  /usr/src/python-gtkimageview-1.1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/pkgconfig/pygtkimageview.pc
+  /usr/lib/python2.5/site-packages/gtkimageview/__init__.py
+  /usr/lib/python2.5/site-packages/gtkimageview/__init__.pyc
+  /usr/lib/python2.5/site-packages/gtkimageview/__init__.pyo
+  /usr/lib/python2.5/site-packages/gtkimageview/_gtkimageview.dll
+  /usr/lib/python2.5/site-packages/gtkimageview/_gtkimageview.la
+  /usr/share/doc/python-gtkimageview-1.1.0/COPYING
+  /usr/share/doc/python-gtkimageview-1.1.0/README
+
+------------------
+
+Port Notes:
+
+----- version 1.1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

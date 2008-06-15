@@ -1,0 +1,4 @@
+inherit pygtk
+
+HOMEPAGE="http://trac.bjourne.webfactional.com/"
+SRC_URI="http://trac.bjourne.webfactional.com/attachment/wiki/WikiStart/${ORIG_PN}-${PV}.tar.gz?format=raw"
